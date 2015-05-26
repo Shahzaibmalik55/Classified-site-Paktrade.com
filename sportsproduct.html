@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
+
+        $('.carousel').carousel({
+            interval: 9000,
+            pause: 'none'
+        });
+    </script>
+    <title>Home</title>
+    <style>
+        a:hover{
+            text-decoration: none;
+            cursor: pointer;
+            background-color: rgba(192, 192, 192, 0.59);
+        }
+        a{
+            font-weight: bold;
+            padding: 10px;
+            border-collapse: collapse;
+            margin: auto auto auto -3px;
+            border-radius: 5px;
+            font-size: 15px;
+            border: 1px solid #c0c0c0;
+        }
+        .categories{
+            font-size: 20px;
+            text-align: center;
+            padding: 5px;
+        }
+        .row{
+            /*border: 1px  solid #000000;*/
+            margin: 60px 20px auto auto;
+            height: 500px;
+            padding: 10px;
+            width: 100%;
+
+        }
+        h3{
+            text-align: center;
+            font-size: 30px;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+        <!-- Static navbar -->
+        <div class="navbar navbar-default" role="navigation" style="height:90px;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="Home.html" style="border: 1px solid transparent;font-size: 30px;margin: 20px auto auto auto;color: #204d74">Pak Trade.com</a>
+                </div>
+                <div class="navbar-collapse collapse" style="margin: 20px auto auto auto">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="Home.html">Home</a></li>
+                        <li><a href="submitAd.html">Submit Ad</a></li>
+                        <li><a href="login.html">Log Out   <span class="glyphicon glyphicon-log-out"></span></a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="input-group" style="margin: 40px auto 10px auto">
+                <span class="input-group-addon btn btn-primary">Search</span>
+                <input type="text" class="form-control" placeholder="Tv,Cars,Plots,Moblies e.t.c">
+                <span class="glyphicon glyphicon-search input-group-addon btn btn-primary"></span>
+
+            </div>
+
+    <div class="categories">
+        <a href="mobiles&tabs.html" class="col-md-2 col-xs-4">Mobiles & Tablets <span class="badge">50</span></a>
+        <a href="vehicles&bikes.html" class="col-md-2 col-xs-4">Vehicles & Bikes <span class="badge">50</span></a>
+        <a href="computer&tabs.html" class="col-md-2 col-xs-4">Computer & Tabs <span class="badge">80</span></a>
+        <a href="furniture.html" class="col-md-2 col-xs-4">Furniture <span class="badge">90</span></a>
+        <a href="realestate.html" class="col-md-2 col-xs-4">Real Estate <span class="badge">34</span></a>
+        <a href="sportsproduct.html" class="col-md-2 col-xs-4 btn-primary">Sports Products <span class="badge">50</span></a>
+    </div>
+    <div class="row">
+        <h3>Sports Products </h3><hr/>
+        <div class="col-md-6 col-xs-12" style="border: 1px solid #000000;height: 180px;margin: 10px auto auto auto;border-radius: 10px">
+            <br>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 150px;height: 150px;border-radius: 5px">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="computer4.jpg" alt="...">
+                    </div>
+
+
+                    <div class="item">
+                        <img src="computer2.jpg" alt="...">
+                    </div>
+
+                    <div class="item">
+                        <img src="computer.jpg" alt="...">
+                    </div>
+
+
+                </div>
+            </div>
+            <b style="margin:-150px auto auto auto;float: right;font-size: 20px"> RS:12,000</b>
+
+            <p style="margin: -150px auto auto 180px;font-size: 25px;font-weight: bold">Computers & Tabs</p>
+            <p style="margin:  20px auto auto 180px;font-size: 15px">DELL 200GB Hard Disk,4GB RAM,DVD Rider,2.5 GHZ Processor</p>
+
+            <a href="homeAddDetails1.html" class="btn btn-info" style="margin: -40px auto auto auto;float: right">Veiw Ad  <span class="glyphicon glyphicon-chevron-right"></span> </a>
+
+        </div>
+
+        <div class="col-md-6 col-xs-12" style="border: 1px solid #000000;height: 180px;margin: 10px auto auto auto;border-radius: 10px">
+            <br>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 150px;height: 150px;border-radius: 5px">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="sp2.jpg" alt="...">
+                    </div>
+
+
+                    <div class="item">
+                        <img src="sp.jpg" alt="...">
+                    </div>
+
+                    <div class="item">
+                        <img src="sp3.jpg" alt="...">
+                    </div>
+
+
+                </div>
+            </div>
+            <b style="margin:-150px auto auto auto;float: right;font-size: 20px"> RS:30,000</b>
+
+            <p style="margin: -150px auto auto 180px;font-size: 25px;font-weight: bold">Vehicles & Bikes</p>
+            <p style="margin:  20px auto auto 180px;font-size: 15px">Super Power Model 2012, Condition As New, Complete Documents</p>
+
+            <a href="homeAddDetails2.html" class="btn btn-info" style="margin: -40px auto auto auto;float: right">Veiw Ad  <span class="glyphicon glyphicon-chevron-right"></span>  </a>
+
+        </div>
+
+        <div class="col-md-6 col-xs-12" style="border: 1px solid #000000;height: 180px;margin: 10px auto auto auto;border-radius: 10px">
+            <br>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 150px;height: 150px;border-radius: 5px">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="mehran.jpg" alt="...">
+                    </div>
+
+
+                    <div class="item">
+                        <img src="mehran2.jpg" alt="...">
+                    </div>
+
+                    <div class="item">
+                        <img src="mehran3.jpg" alt="...">
+                    </div>
+
+
+                </div>
+            </div>
+            <b style="margin:-150px auto auto auto;float: right;font-size: 20px"> RS:200,000</b>
+
+            <p style="margin: -150px auto auto 180px;font-size: 25px;font-weight: bold">Vehicles & Bikes</p>
+            <p style="margin:  20px auto auto 180px;font-size: 15px">Mehran Car Model 2001, Condition OK No Default, Complete Documents </p>
+
+            <a href="" class="btn btn-info" style="margin: -40px auto auto auto;float: right">Veiw Ad  <span class="glyphicon glyphicon-chevron-right"></span>  </a>
+
+
+        </div>
+
+        <div class="col-md-6 col-xs-12" style="border: 1px solid #000000;height: 180px;margin: 10px auto auto auto;border-radius: 10px">
+            <br>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 150px;height: 150px;border-radius: 5px">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="furniture2.jpg" alt="...">
+                    </div>
+
+
+                    <div class="item">
+                        <img src="furniture3.jpg" alt="...">
+                    </div>
+
+                    <div class="item">
+                        <img src="furniture8.jpg" alt="...">
+                    </div>
+
+
+                </div>
+            </div>
+            <b style="margin:-150px auto auto auto;float: right;font-size: 20px"> RS:15,000</b>
+
+            <p style="margin: -150px auto auto 180px;font-size: 25px;font-weight: bold">Furniture</p>
+            <p style="margin:  20px auto auto 180px;font-size: 15px">Single Bed, Condition OK, with Metress and pilows made with best wood material</p>
+
+            <a href="" class="btn btn-info" style="margin: -40px auto auto auto;float: right">Veiw Ad  <span class="glyphicon glyphicon-chevron-right"></span> </a>
+
+        </div>
+
+        <div class="col-md-6 col-xs-12" style="border: 1px solid #000000;height: 180px;margin: 10px auto auto auto;border-radius: 10px">
+            <br>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 150px;height: 150px;border-radius: 5px">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="Adidas%20Originals_SportsWear_72.jpg" alt="...">
+                    </div>
+
+
+                    <div class="item">
+                        <img src="Nike_SportsWear_40.jpg" alt="...">
+                    </div>
+
+                    <div class="item">
+                        <img src="sport4.jpg" alt="...">
+                    </div>
+
+
+                </div>
+            </div>
+            <b style="margin:-150px auto auto auto;float: right;font-size: 20px"> RS:5,000</b>
+
+            <p style="margin: -150px auto auto 180px;font-size: 25px;font-weight: bold">Sport Products</p>
+            <p style="margin:  20px auto auto 180px;font-size: 15px">Best Quality Nike,Puma Jackets and Shoes with Best Price</p>
+
+            <a href="" class="btn btn-info" style="margin: -40px auto auto auto;float: right">Veiw Ad  <span class="glyphicon glyphicon-chevron-right"></span>  </a>
+
+        </div>
+
+        <div class="col-md-6 col-xs-12" style="border: 1px solid #000000;height: 180px;margin: 10px auto auto auto;border-radius: 10px">
+            <br>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 150px;height: 150px;border-radius: 5px">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="laptop.jpg" alt="...">
+                    </div>
+
+
+                    <div class="item">
+                        <img src="laptop4.jpg" alt="...">
+                    </div>
+
+                    <div class="item">
+                        <img src="laptop3.jpg" alt="...">
+                    </div>
+
+
+                </div>
+            </div>
+            <b style="margin:-150px auto auto auto;float: right;font-size: 20px"> RS:20,000</b>
+
+            <p style="margin: -150px auto auto 180px;font-size: 25px;font-weight: bold">Computers & Tabs</p>
+            <p style="margin:  20px auto auto 180px;font-size: 15px">PC Laptop 400GB Hard Disk,4GB RAM,DVD Rider,2.67 GHZ Processor</p>
+
+            <a href="" class="btn btn-info" style="margin: -40px auto auto auto;float: right">Veiw Ad  <span class="glyphicon glyphicon-chevron-right"></span>  </a>
+
+        </div>
+
+        <div class="col-md-6 col-xs-12" style="border: 1px solid #000000;height: 180px;margin: 10px auto auto auto;border-radius: 10px">
+            <br>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 150px;height: 150px;border-radius: 5px">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="i5.2.jpg" alt="...">
+                    </div>
+
+
+                    <div class="item">
+                        <img src="i5.jpg" alt="...">
+                    </div>
+
+                    <div class="item">
+                        <img src="iphone-i5-v-nalichii-.jpg" alt="...">
+                    </div>
+
+
+                </div>
+            </div>
+            <b style="margin:-150px auto auto auto;float: right;font-size: 20px"> RS:40,000</b>
+
+            <p style="margin: -150px auto auto 180px;font-size: 25px;font-weight: bold">Mobiles & Tabs</p>
+            <p style="margin:  20px auto auto 180px;font-size: 15px">I5 64GB builtin Memory,Condition OK , Complete Acessories</p>
+
+            <a href="" class="btn btn-info" style="margin: -40px auto auto auto;float: right">Veiw Ad  <span class="glyphicon glyphicon-chevron-right"></span>  </a>
+
+        </div>
+
+        <div class="col-md-6 col-xs-12" style="border: 1px solid #000000;height: 180px;margin: 10px auto auto auto;border-radius: 10px">
+            <br>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 150px;height: 150px;border-radius: 5px">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="real%20estate.2jpg.jpg" alt="...">
+                    </div>
+
+
+                    <div class="item">
+                        <img src="real%20estate3jpg.jpg" alt="...">
+                    </div>
+
+                    <div class="item">
+                        <img src="real%20estate4.jpg" alt="...">
+                    </div>
+
+
+                </div>
+            </div>
+            <b style="margin:-150px auto auto auto;float: right;font-size: 20px"> RS:5000,000</b>
+
+            <p style="margin: -150px auto auto 180px;font-size: 25px;font-weight: bold">Real Estate</p>
+            <p style="margin:  20px auto auto 180px;font-size: 15px">500 sqft Banglow,4 Rooms Kitchen And Bathroom in Nazaimabad Block-A</p>
+
+            <a href="Home.html" onclick="assignName()" class="btn btn-info" style="margin: -40px auto auto auto;float: right">Veiw Ad  <span class="glyphicon glyphicon-chevron-right"></span>    </a>
+
+        </div>
+    </div>
+</div>
+<script src="javaFile.js"></script>
+
+</body>
+</html>

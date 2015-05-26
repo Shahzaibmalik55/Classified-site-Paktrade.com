@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Sign Up | PakTrade</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"
+</head>
+<style>
+
+    .signup{
+        margin: auto auto auto auto;
+        background-color: rgba(153, 153, 153, 0.50);
+        border: 1px solid #c0c0c0;
+        height: 500px;
+        width: 35%;
+        border-radius: 10px;
+    }
+    h3{
+        text-align: center;
+        font-weight: bold;
+        font-size: 220%;
+    }
+    input{
+        height: 38px;
+        width: 87%;
+        margin: 13px auto auto 25px;
+        padding: 5px;
+        font-size: 18px;
+    }
+</style>
+<body>
+
+<div class="container"> <div class="page-header">
+
+    <h3 style="font-size: 40px;margin: 20px auto auto -800px;color: #204d74">PakTrade.com</h3>
+
+</div>
+    <div class="signup">
+        <h3>Sign Up</h3>
+        <form action="Home.html" method="get">
+        <input type="text" name="Firstname" id="Firstname" placeholder="Firstname"><br>
+        <input type="text" name="Lastname" id="Lastname" placeholder="Lastname"><br>
+        <input type="text" name="Middlename" id="Middlename" placeholder="Middlename"><br>
+        <input type="email" name="email" id="email" placeholder="Email Address"><br>
+        <input type="text" name="username" id="username" placeholder="Username" ><br>
+        <input type="password" name="pass" id="password" placeholder="Password"><br>
+
+            <a href="Home.html" onclick="alert('Welcome' + document.getElementById('Firstname').value)" class="btn btn-success btn-block" style="width: 75%;text-align: center;margin: 20px auto auto 50px;font-size: 20px"><span class="glyphicon glyphicon-plus"></span>   Sign Up</a>
+
+        </form>
+
+    </div>
+    </div>
+<script src="javaFile.js"></script>
+</body>
+</html>
